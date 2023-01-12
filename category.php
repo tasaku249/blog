@@ -5,7 +5,7 @@
     <?php
       $cat = get_the_category();
       $catname = $cat[0]->cat_name;
-    ?> a2
+    ?>
     <h1 class="page-title"><?php echo $catname; ?></h1>
 
     <?php
