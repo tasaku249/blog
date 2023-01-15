@@ -127,7 +127,7 @@ hr.title-hr {
   display: flex;
   justify-content: flex-start;
   margin: 40px auto;
-  width: 100%;
+  width: 500px;
 }
 #navi li {
   font-size: 1rem;
@@ -463,7 +463,7 @@ SP
 article
 ---------------------- */
 .article h2 {
-  background-color: #3b4675;
+  background-color: #098dd1;
   border-radius: 2px;
   color: #ffffff;
   font-size:25px;
@@ -478,7 +478,7 @@ article
 }
 
 .article h3 {
-  border-bottom: 3px solid #3b4675;
+  border-bottom: 3px solid #098dd1;
   font-size:25px;
   padding-top: 5px;
   padding-bottom: 5px;
