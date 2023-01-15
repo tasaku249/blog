@@ -4,7 +4,7 @@ Theme Name: blog
 */
 html {
   font-size: 100%;
-  width: 500px;
+  width: 100%;
   min-width: 500px;
   max-width: 100%;
 }
@@ -231,6 +231,7 @@ top page
 	width: 100%;
 	height: 100%;
   text-align: center;
+  will-change: transform,animation,position;
 	animation: kvzoom 3s ease-in-out forwards;
 }
 .lcl-main .title-mess{
@@ -242,6 +243,7 @@ top page
   text-align: center;
   position: absolute; /*追記*/
   top: 	40%;
+  will-change: transform,animation,position;
   animation: titlezoom 3s ease-in-out 1s backwards;
 }
 @keyframes kvzoom {
@@ -264,7 +266,7 @@ top page
 }
 .lcl-lead .wave-wrp {
 	bottom: auto;
-	top: -90px;
+	top: -80px;
   z-index: 1;
 }
 .lcl-lead__ttl {
