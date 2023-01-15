@@ -249,6 +249,10 @@ top page
   0% { opacity: 0}
 	100% { opacity: 1}
 }
+@keyframes kvzoom-sp {
+  0% { opacity: 0}
+	100% { opacity: 1}
+}
 @keyframes titlezoom {
   0% { opacity: 0}
 	100% { opacity: 1}
@@ -433,7 +437,7 @@ SP
 	/*============= #main =============*/
   .lcl-main .title-img{
     height: 100%;
-  
+    animation: kvzoom-sp 3s ease-in-out forwards;
   }
   .lcl-main .title-mess{
     width: 100%;
