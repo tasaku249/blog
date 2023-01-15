@@ -410,10 +410,12 @@ SP
 
 /* ---------------------------------------------------------------- SP ---- */
 	/*============= #main =============*/
-
+  .lcl-main .title-img{
+    height: 100%;
+    animation: none;
+  }
   .lcl-main .title-mess{
     width: 100%;
-    min-width: 100%;
     font-size: 2.5rem;
     margin: 0 auto;
     display: block;
