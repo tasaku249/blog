@@ -127,7 +127,7 @@ hr.title-hr {
   display: flex;
   justify-content: flex-start;
   margin: 40px auto;
-  width: 500px;
+  width: 100%;
 }
 #navi li {
   font-size: 1rem;
@@ -384,8 +384,15 @@ SP
     margin-bottom: -10px;
   }
   #navi ul {
-    width: 450px;
+    width: 100%;
     margin-bottom: -5px;
+  }
+  #navi li {
+    font-size: 1rem;
+    padding: 5px 30px 7px 30px;
+    margin: 0px auto;
+    border-radius: 32px;
+    background: #098dd1;
   }
 
   #container {
@@ -413,9 +420,11 @@ SP
   .lcl-main .title-img{
     height: 100%;
     animation: none;
+
   }
   .lcl-main .title-mess{
     width: 100%;
+    top: 	45%;
     font-size: 2.5rem;
     margin: 0 auto;
     display: block;
