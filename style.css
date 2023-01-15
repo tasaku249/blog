@@ -33,6 +33,10 @@ li {
   padding: 0 16px;
   margin: 0 auto;
 }
+div {
+  -webkit-backface-visibility:hidden;
+  backface-visibility:hidden;
+}
 
 /*-------------------------------------------
 header
@@ -261,11 +265,11 @@ top page
 .lcl-lead .wave-wrp {
 	bottom: auto;
 	top: -90px;
+  z-index: 1;
 }
 .lcl-lead__ttl {
 	text-align: center;
 	font-size: 34px;
-	line-height: 1;
 	letter-spacing: 0.08em;
 	color: #1395ac;
 	background: -webkit-linear-gradient(
@@ -404,13 +408,14 @@ SP
 
   .lcl-main .title-mess{
     font-size: 2.5rem;
-    width: 500px;
+    margin: 0 auto;
+    min-width: 500px;
+    display: block;
   }
 
 	/*============= #lead =============*/
 	.lcl-lead__ttl {
-		font-size: 21px;
-		font-size: 6vw;
+		font-size: 2rem;
 		margin-bottom: 20px;
 	}
 	.lcl-lead__txt {
