@@ -4,6 +4,9 @@ Theme Name: blog
 */
 html {
   font-size: 100%;
+  width: 100%;
+  min-width: 500px;
+  max-width: none;
 }
 body {
   color: #333;
@@ -335,6 +338,7 @@ SP
     margin: 0 auto;
     float: none;
     margin-top: -10px;
+    width: 500px;
   }
   .header-navi ul {
     display: flex;
@@ -400,7 +404,7 @@ SP
 
   .lcl-main .title-mess{
     font-size: 2.5rem;
-
+    width: 500px;
   }
 
 	/*============= #lead =============*/
