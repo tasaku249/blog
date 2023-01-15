@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+<div class="works-header"></div>
+
 <div id="container" class="wrapper">
   <main>
     <div class="article">

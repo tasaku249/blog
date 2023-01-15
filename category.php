@@ -1,12 +1,24 @@
 <?php get_header(); ?>
 
+<div class="works-header"></div>
+<div class="works-title">Works</div>
+<hr class="title-hr">
+
+<nav id="navi">
+  <ul>
+    <li><a href="<?php echo esc_url(home_url('/category/column/')); ?>">Azure</a></li>
+    <li><a href="<?php echo esc_url(home_url('/category/news/')); ?>">3D Art</a></li>
+    <li><a href="<?php echo esc_url(home_url('/category/hotel/')); ?>">2D Art</a></li>
+  </ul>
+</nav>
+
 <div id="container" class="wrapper">
-  <main>
-    <?php
+  <main>  
+    <!--<?php
       $cat = get_the_category();
       $catname = $cat[0]->cat_name;
     ?>
-    <h1 class="page-title"><?php echo $catname; ?></h1>
+    <h1 class="page-title"><?php echo $catname; ?></h1>-->
 
     <?php
       if (have_posts()):

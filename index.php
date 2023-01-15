@@ -1,162 +1,35 @@
 <?php get_header(); ?>
 
-
-<!DOCTYPE html>
-<!-- saved from url=(0019)https://umi.design/ -->
-<html lang="ja" class=" wf-dnp-shuei-gothic-gin-std-n4-active wf-dnp-shuei-gothic-gin-std-n5-active wf-dnp-shuei-gothic-gin-std-n6-active wf-active"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="format-detection" content="telephone=no">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link rel="shortcut icon" href="https://umi.design/">
-
-<style>
-@charset 'utf-8';
-
-/*============= #main =============*/
-.lcl-main {
-	width: 100%;
-	height: 48vw;
-	background: url(<?php echo esc_url(get_theme_file_uri('img/ogp.png')); ?>) left top/ cover no-repeat;
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	overflow: hidden;
-	z-index: 2;
-}
-
-.lcl-main__ttl img {
-	width: 30%;
-	margin: 0 auto;
-}
-
-/*============= #lead =============*/
-.lcl-lead {
-	/*margin-top: 48vw;*/
-	padding: 80px 0 180px;
-	position: relative;
-	background-color: #fff;
-	z-index: 2;
-}
-.lcl-lead .wave-wrp {
-	bottom: auto;
-	top: -90px;
-}
-.lcl-lead__ttl {
-	text-align: center;
-	font-size: 34px;
-	line-height: 1;
-	letter-spacing: 0.08em;
-	color: #1395ac;
-	background: -webkit-linear-gradient(
-		132deg,
-		rgba(77, 135, 200, 1) 0%,
-		rgba(19, 149, 172, 1) 78%
-	);
-	background: linear-gradient(
-		132deg,
-		rgba(77, 135, 200, 1) 0%,
-		rgba(19, 149, 172, 1) 78%
-	);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	margin-bottom: 30px;
-	position: relative;
-	z-index: 2;
-}
-.lcl-lead__txt {
-	text-align: center;
-	z-index: 2;
-	position: relative;
-}
-
-/* ---------------------------------------------------------------- SP ---- */
-@media screen and (max-width: 767px) {
-	/*============= #main =============*/
-	.lcl-main {
-    top: 100px;
-		height: 50vh;
-		margin-bottom: 75px;
-	}
-	.lcl-main__ttl img {
-		width: 35%;
-		margin: 0 auto;
-		margin-top: -40px;
-	}
-	/*============= #lead =============*/
-	.lcl-lead__ttl {
-		font-size: 21px;
-		font-size: 6vw;
-		margin-bottom: 20px;
-	}
-	.lcl-lead__txt {
-		line-height: 1.8;
-	}
-}
-
-/*============= #initial =============*/
-*{
-	margin:0;
-	padding:0
-}
-img{
-	max-width:100%;
-	vertical-align:top;
-	border:0;
-	display:block
-}
-
-h1,h2,h3,h4,h5,h6
-{
-	font-size:100%;
-	font-weight:inherit;
-	font-style:inherit
-}
-
-/*============= #wrapper =============*/
-.wave-wrp {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	height: 90px;
-	width: 100%;
-}
-.wave-wrp > canvas {
-	width: 100%;
-	height: 90px;
-}
-
-</style>
 <body class="home blog vsc-initialized">
 <div id="page" class="site">
-	<header id="header">
-	</header><!-- #header -->
 	<div id="primary" class="content-area">
 		<main id="main">
 			<div class="lcl-main">
-				<h1 class="lcl-main__ttl">
-					<img src="<?php echo esc_url(get_theme_file_uri('img/domaso2.png')); ?>"></a>
-				</h1>
-
+				<div class="title-img" style="background: url(<?php echo esc_url(get_theme_file_uri('img/untitled3.png')); ?>) center top/ cover no-repeat;"></div>
+				<div class="title-mess">一緒にいる毎日を<br>もっと楽しく。</div>
 			</div><!-- /.lcl-main -->
 			<div id="lead" class="lcl-lead">
 				<div class="wave-wrp">
 				    <canvas id="wave-item-01" width="1519" height="90"></canvas>
 				</div>
-				<h2 class="lcl-lead__ttl fadein-bottom">広く深いデザインをうみだす</h2>
+				<h2 class="lcl-lead__ttl fadein-bottom" style="font-weight: bold;">こんにちは、自己紹介です。</h2>
 				<p class="lcl-lead__txt fadein-bottom">
-					波も風も砂浜も同じものは無いように<br class="dn-w">人も会社もひとつひとつ違います<br>
-					灯台のように道を照らし、<br class="dn-w">同じ舟に乗るように共に歩む<br>
-					そんなデザインをうみだしていきたいと<br class="dn-w">わたしたちは考えています
+					波も風も砂浜も同じものは無いように思います。<br class="dn-w">人も会社もひとつひとつ違います。<br>
+				</p>
+				<br><br><br><br>
+				<h2 class="lcl-lead__ttl fadein-bottom" style="font-weight: bold;">できること</h2>
+				<p class="lcl-lead__txt fadein-bottom">
+					ダンス、サックス、調理師免許２級
+				</p>
+				<br><br><br><br>
+				<h2 class="lcl-lead__ttl fadein-bottom" style="font-weight: bold;">問い合わせフォーム</h2>
+				<p class="lcl-lead__txt fadein-bottom">
+					だだいま閉鎖中
 				</p>
 			</div><!-- /.lcl-lead -->
 			
 		</main><!-- #main -->
 	</div><!-- #primary -->
-	<footer id="footer">
-	</footer><!-- #footer -->
 </div><!-- #page -->
 
 <script>
@@ -219,20 +92,5 @@ h1,h2,h3,h4,h5,h6
 })();
 
 </script>
-
-<!--<div id="container" class="wrapper">
-  <main>
-     <?php
-        if (have_posts()):
-          get_template_part('loop');
-
-          if (function_exists("pagination")) {
-            pagination($wp_query->max_num_pages);
-          }
-        endif;
-    ?>-->
-  </main>
-</div>
--->
 
 <?php get_footer(); ?>
