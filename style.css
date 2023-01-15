@@ -147,7 +147,7 @@ footer
 #footer .copyright {
   font-size: 0.750rem;
   text-align: center;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 /*-------------------------------------------
@@ -259,7 +259,7 @@ top page
 /*============= #lead =============*/
 .lcl-lead {
 	/*margin-top: 48vw;*/
-	padding: 80px 0 180px;
+	padding: 80px 0 80px;
 	position: relative;
 	background-color: #fff;
 	z-index: 2;
@@ -429,6 +429,9 @@ SP
 	.lcl-lead__txt {
 		line-height: 1.8;
 	}  
+  .lcl-lead {
+    padding: 80px 0 40px;
+  }
 }
 
 .pagination ul {
