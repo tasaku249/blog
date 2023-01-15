@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <title><?php echo bloginfo('name'); ?></title>
   <meta name="description" content="<?php bloginfo('description'); ?>">
   <link rel="shortcut icon" href="<?php echo esc_url(get_theme_file_uri('img/common/favicon.ico')); ?>">
