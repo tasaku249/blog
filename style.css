@@ -398,6 +398,7 @@ SP
   }
   #navi ul {
     width: 100%;
+    max-width: 400px;
     margin-bottom: -5px;
   }
   #navi li {
