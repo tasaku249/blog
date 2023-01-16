@@ -203,7 +203,7 @@ container
   width: 75%;
   margin-bottom: 80px;
 }
-.thumbnail{
+.thumbnail img {
   width: 100%;
   height: auto;
   border-radius: 10px;
