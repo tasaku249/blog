@@ -218,6 +218,24 @@ container
   color: #333;
   font-weight: bold;
 }
+.wp-block-image {
+  margin-top: -10px;
+}
+/*ソースコード表示*/
+pre{ 
+  position:relative;
+  margin-left: 0px;
+  padding:10px 0 10px 20px; /*余白：上・右・下・左*/
+  background:#2F3437; /*背景色*/
+  color: #fff; /*文字色*/
+  font-size:1em; /*文字サイズ*/
+  overflow: auto;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  margin-top: -10px;
+}
+
+
 /* ---------------------------------
 top page
 -----------------------------------*/
@@ -324,18 +342,6 @@ top page
 main .page-title {
   font-size: 1.75rem;
 
-}
-/*ソースコード表示*/
-pre{ 
-  position:relative;
-  margin-left: 0px;
-  padding:10px 0 10px 20px; /*余白：上・右・下・左*/
-  background:#2F3437; /*背景色*/
-  color: #fff; /*文字色*/
-  font-size:1em; /*文字サイズ*/
-  overflow: auto;
-  border-radius: 5px;
-  margin-bottom: 40px;
 }
 
 
