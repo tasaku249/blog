@@ -438,7 +438,7 @@ SP
 	/*============= #main =============*/
   .lcl-main .title-img{
     height: 100%;
-    animation: kvzoom 3s ease-in-out forwards;
+    animation: kvzoom-sp 3s ease-in-out forwards;
   }
   .lcl-main .title-mess{
     width: 100%;
