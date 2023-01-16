@@ -218,7 +218,7 @@ container
   color: #333;
   font-weight: bold;
 }
-.wp-block-image {
+.wp-block-image img {
   margin-top: -10px;
   width: 100%;
   height: auto;
