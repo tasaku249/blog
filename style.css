@@ -203,10 +203,11 @@ container
   width: 75%;
   margin-bottom: 80px;
 }
-.article article img {
+.thumbnail{
   width: 100%;
   height: auto;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 .article .meta li {
   text-align: right;

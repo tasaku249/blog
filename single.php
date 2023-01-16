@@ -13,7 +13,7 @@
             <ul class="meta">
             <li><?php the_time('Y/m/d'); ?></li>
             </ul>
-            <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
+            <a class="thumbnail" href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
             <div class="text"><?php the_content(); ?></div>
         </article>
         <?php endwhile;endif; ?>
