@@ -219,7 +219,7 @@ container
   font-weight: bold;
 }
 .wp-block-image {
-  margin-top: -10px;
+  margin-top: -20px;
 }
 /*ソースコード表示*/
 pre{ 
@@ -232,7 +232,7 @@ pre{
   overflow: auto;
   border-radius: 5px;
   margin-bottom: 40px;
-  margin-top: -10px;
+  margin-top: -5px;
 }
 
 
