@@ -221,7 +221,7 @@ container
 .wp-block-image {
   margin-top: -10px;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 /*ソースコード表示*/
 pre{ 
