@@ -5,7 +5,7 @@
 	<div id="primary" class="content-area">
 		<main id="main">
 			<div class="lcl-main">
-				<div class="title-img" style="background: url(<?php echo esc_url(get_theme_file_uri('img/untitled3.png')); ?>) center top/ cover no-repeat;"></div>
+				<div class="title-img" style="background: url(<?php echo esc_url(get_theme_file_uri('img/untitled3.jpg')); ?>) center top/ cover no-repeat;"></div>
 				<div class="title-mess">一緒にいる毎日を<br>もっと楽しく。</div>
 			</div><!-- /.lcl-main -->
 			<div id="lead" class="lcl-lead">
