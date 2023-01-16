@@ -6,9 +6,9 @@
 
 <nav id="navi">
   <ul>
-    <li><a href="<?php echo esc_url(home_url('/category/column/')); ?>">Azure</a></li>
-    <li><a href="<?php echo esc_url(home_url('/category/news/')); ?>">3D Art</a></li>
-    <li><a href="<?php echo esc_url(home_url('/category/hotel/')); ?>">2D Art</a></li>
+    <li><a href="<?php echo esc_url(home_url('/category/column/')); ?>">azure</a></li>
+    <li><a href="<?php echo esc_url(home_url('/category/news/')); ?>">illust</a></li>
+    <li><a href="<?php echo esc_url(home_url('/category/hotel/')); ?>">others</a></li>
   </ul>
 </nav>
 
