@@ -220,7 +220,7 @@ container
 }
 .wp-block-image img {
   margin-top: -10px;
-  width: 100%;
+  width: auto;
   height: auto;
 }
 /*ソースコード表示*/
