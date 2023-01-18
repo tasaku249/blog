@@ -207,7 +207,7 @@ container
   width: 100%;
   height: auto;
   border-radius: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .article .meta li {
   text-align: right;
@@ -497,7 +497,7 @@ article
   padding-bottom: 10px;
   padding-left: 10px;
 
-  margin-top: 15px;
+  margin-top: 40px;
   margin-bottom: 15px;
 
   font-weight:normal;
@@ -529,4 +529,3 @@ article
 .article a:hover {
   text-decoration: none;
 }
-
