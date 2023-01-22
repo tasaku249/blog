@@ -112,6 +112,7 @@ hr.title-hr {
 	width: 80px;
 	height: 8px;
 	margin: 20px auto;
+  margin-bottom: 45px;
   background: #098dd1;
   border-radius: 32px;
 	border: none;
@@ -120,9 +121,22 @@ hr.title-hr {
   width: 100%;
 }
 #navi a {
-  color: #FFF;
   letter-spacing: 0.05em;
+  border-radius: 32px;
+  font-size: 1rem;
+  padding: 5px 40px 7px 40px;
 }
+
+#navi .click {
+  color: #FFF;
+  background: #098dd1;
+}
+
+#navi .no-click {
+  color: #CCC;
+  background: #EEE;
+}
+
 #navi ul {
   display: flex;
   justify-content: flex-start;
@@ -130,11 +144,9 @@ hr.title-hr {
   width: 500px;
 }
 #navi li {
-  font-size: 1rem;
-  padding: 5px 40px 7px 40px;
+
   margin: 0px auto;
-  border-radius: 32px;
-  background: #098dd1;
+
 }
 
 /*-------------------------------------------
