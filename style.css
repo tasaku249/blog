@@ -421,19 +421,31 @@ SP
     margin: 5px auto;
     margin-bottom: -10px;
   }
+  #navi {
+    width: 100%;
+  }
+  #navi a {
+    letter-spacing: 0.05em;
+    padding: 5px 30px 7px 30px;
+    margin: 0px auto;
+  }
+  
+  #navi ul {
+    display: flex;
+    justify-content: flex-start;
+    margin: 40px auto;
+    width: 500px;
+  }
+  #navi li {
+  
+    margin: 0px auto;
+  
+  }
   #navi ul {
     width: 100%;
     max-width: 400px;
     margin-bottom: -5px;
   }
-  #navi li {
-    font-size: 1rem;
-    padding: 5px 30px 7px 30px;
-    margin: 0px auto;
-    border-radius: 32px;
-    background: #098dd1;
-  }
-
   #container {
     flex-direction: column;
   }
